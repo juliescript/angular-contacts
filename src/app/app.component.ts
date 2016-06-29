@@ -8,11 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Contact Manager';
-  contact: Contact = {
-  	id: 1,
-  	name: 'Teniente',
-  	email: 'vteniente@itexico.net'
-  }
+  public contacts = CONTACTS;
 }
 
 export class Contact {
