@@ -1,2 +1,13 @@
 <h1>{{ title }}</h1>
 <h2>{{ contact.name }} details!</h2>
+
+<div>
+  <label>id: </label> {{ contact.id }}
+</div>
+
+<div>
+  <label>name: </label> <input [(ngModel)]="contact.name" placehoder="name" />
+</div>
+<div>
+  <label>email: </label> <input [(ngModel)]="contact.email" placehoder="email" />
+</div>
