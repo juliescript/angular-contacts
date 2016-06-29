@@ -7,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Contact Manager';
+  contact: Contact = {
+  	id: 1,
+  	name: 'Teniente',
+  	email: 'vteniente@itexico.net'
+  }
+}
+
+export class Contact {
+	id: number;
+	name: string;
+	email: string;
+	// favourite: boolean;
 }
